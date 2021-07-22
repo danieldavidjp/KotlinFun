@@ -1,12 +1,25 @@
 fun main() {
-    //list and arrays
+    // For loops
+    /*
+    for(x in 1..10){
+        println(x)
+    }
 
-    var luckyNumbers = mutableListOf(6,12,22,27,37,8)
+    */
+    /*var favCandies = listOf("KitKat","Jet","Skittles")
 
-    luckyNumbers.add(5,0)
+    for(y in favCandies){
 
-    println(luckyNumbers.size)
+        println(y)
+    }
 
-    var favMovies = listOf("Hercules","Fight Club","Zombieland")
+    */
+    //Loop from 1 to 200 and print out all odd numbers
+    for(x in 1..200){
 
+        if(x%2 != 0){
+            println(x)
+        }
+
+    }
 }
