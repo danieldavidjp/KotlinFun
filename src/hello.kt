@@ -1,15 +1,21 @@
 fun main() {
-    // Maps
-    /*
-    var dogs = mutableMapOf("Nina" to 14, "Cirilo" to 7, "Lulo" to 2)
+    // Functions
+    /*fun hello(name:String = "World",punctuation:String = "!"):String {
 
-    println(dogs["Nina"])
+        return "Hello $name$punctuation"
+    }
 
-    dogs["Balto"] = 52
-    */
+    println(hello("Monika","?"))*/
 
-    var slangs = mapOf("vecino" to "Person that you dont know", "Achichay" to "Is Really Cold")
+//    fun addNumbers(num1: Int, num2: Int): Int{
+//        return num1 + num2
+//    }
 
-    println(slangs["vecino"])
+//    fun addNumbers(num1: Int, num2: Int) = num1 + num2
+//
+//    println(addNumbers(2,3))
 
+    fun dog(name: String, age: Int) = "$name is $age years old"
+
+    println(dog("Nina",14))
 }
