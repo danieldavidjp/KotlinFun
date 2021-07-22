@@ -1,19 +1,18 @@
 fun main() {
-    // Calculo de Radio basico
-    var radius = 6
+    //If Statement and Boolean
 
-    var pi = 3.14
+    var isTheDogAlive = true
 
-    var c = radius * pi * 2
+    var age = 28
 
-    println(c)
+    var name = "Rick"
 
-    // Suma a edad
-    var age = 26
+    if(name == "Daniel"){
 
-    age += 40
+        println("Daniel is the Boss")
 
-    println(age)
-
+    }else{
+        println("$name is amazing")
+    }
 
 }
