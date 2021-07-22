@@ -1,18 +1,12 @@
 fun main() {
-    //If Statement and Boolean
+    //list and arrays
 
-    var isTheDogAlive = true
+    var luckyNumbers = mutableListOf(6,12,22,27,37,8)
 
-    var age = 28
+    luckyNumbers.add(5,0)
 
-    var name = "Rick"
+    println(luckyNumbers.size)
 
-    if(name == "Daniel"){
-
-        println("Daniel is the Boss")
-
-    }else{
-        println("$name is amazing")
-    }
+    var favMovies = listOf("Hercules","Fight Club","Zombieland")
 
 }
