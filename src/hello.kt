@@ -1,9 +1,19 @@
 fun main() {
-    var age: Int = 0
+    // Calculo de Radio basico
+    var radius = 6
 
-    var favCandy: String = "KitKat";
+    var pi = 3.14
 
-    println("I am $age years old and I love $favCandy")
+    var c = radius * pi * 2
 
-    var name = "Daniel"
+    println(c)
+
+    // Suma a edad
+    var age = 26
+
+    age += 40
+
+    println(age)
+
+
 }
