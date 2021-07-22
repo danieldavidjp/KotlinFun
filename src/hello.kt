@@ -1,21 +1,46 @@
 fun main() {
-    // Functions
-    /*fun hello(name:String = "World",punctuation:String = "!"):String {
+    // Classes
 
-        return "Hello $name$punctuation"
-    }
-
-    println(hello("Monika","?"))*/
-
-//    fun addNumbers(num1: Int, num2: Int): Int{
-//        return num1 + num2
+//    class Dog(var name: String, var age:Int){
 //    }
 
-//    fun addNumbers(num1: Int, num2: Int) = num1 + num2
+
+
+//    class Dog{
 //
-//    println(addNumbers(2,3))
+//        var name: String
+//        var age : Int
+//
+//        init{
+//            name = ""
+//            age  = 0
+//            }
+//    }
 
-    fun dog(name: String, age: Int) = "$name is $age years old"
+    class Dog{
 
-    println(dog("Nina",14))
+        var name : String
+        var age : Int
+        var fur : String
+
+        constructor(name: String,age: Int, fur: String)  {
+
+            this.name = name
+            this.age = age
+            this.fur = fur
+        }
+        constructor(){
+            name = ""
+            age  = 0
+            fur  = ""
+        }
+        fun dogInfo(){
+            println("$name is $age years old and his fur is $fur")
+        }
+    }
+    var myDog = Dog("Nina", 14, "brown")
+    var myDogo  = Dog()
+
+    myDog.dogInfo()
+    myDogo.dogInfo()
 }
